@@ -8,3 +8,7 @@ Each folder will also contain a README file to help provide a quick overview of 
 Collects APIs around SAS Visual Analytics and the reports created within it. Here you can find examples on how to programmatically created/update/copy/delete reports or create exports of the reports.
 
 Find all APIs in this category in the [SAS Documentation](https://developer.sas.com/rest-apis?categories=visualization_and_reports).
+
+## [SAS-Utilities](https://github.com/Criptic/SAS-Viya-APIs/blob/main/SAS-Utilities)
+
+This folder contains special utilities written in SAS to help making the usage of the SAS Viya APIs easier.
