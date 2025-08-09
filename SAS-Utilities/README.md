@@ -4,6 +4,10 @@ This folder contains special utilities written in SAS to help making the usage o
 
 Find a short description and example usage of each below.
 
+## [Convert Timestamp to SAS](./_convert_timestamp_to_sas.sas)
+
+This example showcases how you can convert a date timestamp as it is returned by the API into a SAS formated datetime.
+
 ## [Retrieve ETag](./_retrieve_etag.sas)
 
 This utility is a SAS macro that helps to get the [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/ETag) of a URI in SAS Viya in order to be able to modify it.
