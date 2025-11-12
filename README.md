@@ -9,6 +9,10 @@ Collects APIs around SAS Visual Analytics and the reports created within it. Her
 
 Find all APIs in this category in the [SAS Documentation](https://developer.sas.com/rest-apis?categories=visualization_and_reports).
 
+## [Python-Utilities](https://github.com/Criptic/SAS-Viya-APIs/blob/main/Python-Utilities)
+
+This folder contains special utilities when working with the SAS Viya APIs from Python within a SAS session (mainly Proc Python).
+
 ## [SAS-Utilities](https://github.com/Criptic/SAS-Viya-APIs/blob/main/SAS-Utilities)
 
 This folder contains special utilities written in SAS to help making the usage of the SAS Viya APIs easier.
