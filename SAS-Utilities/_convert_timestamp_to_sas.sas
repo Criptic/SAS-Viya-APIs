@@ -13,5 +13,5 @@ data work.datetime_example;
     api_datetime_stamp = '2025-07-22T20:23:33.410Z';
     
     * Convert it into the SAS Datetime;
-    sas_datetime = input(api_datetime_stamp, e8601dz26..);
+    sas_datetime = input(api_datetime_stamp, e8601dz26.);
 run;
