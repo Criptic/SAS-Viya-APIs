@@ -34,7 +34,7 @@
             inFile hdrOut delimiter='|' missover;
             input headerLine $;
 
-            if substr(headerLine, 1, 4) EQ 'ETag' then do;
+            if upcase(substr(headerLine, 1, 4)) EQ 'ETAG' then do;
                 headerLine = translate(substr(headerLine, 7), '', '"');
                 eTag1 = '"' || headerLine || '"';
                 eTag2 = "'" || eTag1 || "'";
